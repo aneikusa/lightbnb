@@ -21,8 +21,7 @@ VALUES
   'Quebec',
   28142,
   true
-)
-VALUES 
+),
 (
   2,
   'Blank corner',
@@ -39,8 +38,7 @@ VALUES
   'Alberta',
   83680,
   true
-)
-VALUES 
+),
 (
   3,
   'Habit mix',
@@ -67,7 +65,6 @@ VALUES
 
 INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message)
 VALUES 
-(1, 1, 1, messages)
-(2, 2, 2, messages)
+(1, 1, 1, messages),
+(2, 2, 2, messages),
 (3, 3, 3, messages);
-
